@@ -38,17 +38,17 @@
 
 @media screen and (max-width: 500px) {
   #container {
-    border: 1px dotted red;
     flex-direction: column;
   }
 
   #random-button, #reset-button {
     margin-left: 0;
     margin-right: 0;
+    width: 60%;
   }
 
   #random-button {
-    height: 30px;
+    height: 35px;
     margin-bottom: 10px;
   }
 
