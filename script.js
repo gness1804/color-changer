@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 });
 
-function assignColor() {
+function assignColor() { // generates an rgb value with random numbers
   var a = randomRGBVal();
   var b = randomRGBVal();
   var c = randomRGBVal();
@@ -23,11 +23,11 @@ function randomRGBVal (min, max) { //returns random number between 0 and 254
   return Math.floor(Math.random() * (max - min) + min);
 }
 
-function newBackground (newColor) {
+function newBackground (newColor) { // assigns random color to background
   $("html").css("backgroundColor", newColor);
 
 }
 
-function reset () {
+function reset () { // resets background to white
   $("html").css("backgroundColor", "rgb(255, 255, 255)");
 }
