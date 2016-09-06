@@ -29,5 +29,5 @@ function assignColor (number) {
 }
 
 function reset () {
-
+  $("html").css("backgroundColor", "white");
 }
