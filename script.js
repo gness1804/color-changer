@@ -1,9 +1,11 @@
 $(document).ready(function () {
-  
-});
+  $("#random-button").click(function () {
+    numberGenerate();
+  });
 
 
-//fire this upon submit button
+}); // end of jQuery body
+
 
 function numberGenerate () {
   var result = Math.random();
