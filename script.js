@@ -40,6 +40,15 @@ function assignColor (number) {
   else if (number > 0.6 && number < 0.7) {
     color = "rgb(113, 137, 139)";
   }
+  else if (number > 0.7 && number < 0.8) {
+    color = "rgb(134, 66, 17)";
+  }
+  else if (number > 0.8 && number < 0.9) {
+    color = "rgb(49, 159, 170)";
+  }
+  else {
+    color = "purple";
+  }
   $("html").css("backgroundColor", color);
 }
 
