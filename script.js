@@ -20,7 +20,7 @@ $(document).ready(function () {
 function randomRGBVal (min, max) { //returns random number between 0 and 255
   min = 0;
   max = 256;
-  return Math.random() * (max - min) + min;
+  return Math.floor(Math.random() * (max - min) + min);
 }
 
 console.log(randomRGBVal());
