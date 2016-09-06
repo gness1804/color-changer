@@ -18,9 +18,9 @@ function assignColor() {
 }
 
 
-function randomRGBVal (min, max) { //returns random number between 0 and 255
+function randomRGBVal (min, max) { //returns random number between 0 and 254
   min = 0;
-  max = 256;
+  max = 254;
   return Math.floor(Math.random() * (max - min) + min);
 }
 
