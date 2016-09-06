@@ -17,11 +17,13 @@ $(document).ready(function () {
 //   assignColor(result);
 // }
 
-function randomRGBVal (min, max) {
+function randomRGBVal (min, max) { //returns random number between 0 and 255
   min = 0;
   max = 256;
   return Math.random() * (max - min) + min;
 }
+
+console.log(randomRGBVal());
 
 // if number is within a certain range, generate a color
 
