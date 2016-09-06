@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
 
-}); // end of jQuery body
+});
 
 
 function numberGenerate () {
