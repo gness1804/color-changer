@@ -1,9 +1,10 @@
 #container {
-  border: 1px dotted red; /* temp */
-  height: 30vh;
-  margin: 400px auto;
-  text-align: center;
-  width: 80vw;
+  align-items: center;
+  border: 1px dotted red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
 }
 
 #random-button, #reset-button {
