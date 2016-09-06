@@ -31,6 +31,15 @@ function assignColor (number) {
   else if (number > 0.3 && number < 0.4) {
     color = "magenta";
   }
+  else if (number > 0.4 && number < 0.5) {
+    color = "rgb(153, 112, 35)";
+  }
+  else if (number > 0.5 && number < 0.6) {
+    color = "rgb(21, 185, 72)";
+  }
+  else if (number > 0.6 && number < 0.7) {
+    color = "rgb(113, 137, 139)";
+  }
   $("html").css("backgroundColor", color);
 }
 
