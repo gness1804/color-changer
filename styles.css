@@ -8,10 +8,23 @@
 
 #random-button, #reset-button {
   background-color: #E5B6D5;
+  border-bottom-color: #B2479A;
+  border-left-color: #CC7FB5;
+  border-right-color: #CC7FB5;
+  border-top-color: #B2479A;
+  box-shadow: none;
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700, bold;
   text-transform: uppercase;
+}
+
+#random-button:hover, #reset-button:hover {
+  background-color: #B2479A;
+  border-bottom-color: #CC7Fb5;
+  border-left-color: #E5B6D5;
+  border-right-color: #E5B6D5;
+  border-top-color: #CC7Fb5;
 }
 
 #random-button {
