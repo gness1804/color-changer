@@ -19,11 +19,17 @@ function numberGenerate () {
 
 function assignColor (number) {
   var color;
-  if (number < 0.5) {
+  if (number < 0.1) {
     color = "red";
   }
-  else {
+  else if (number > 0.1 && number < 0.2) {
     color = "blue";
+  }
+  else if (number > 0.2 && number < 0.3) {
+    color = "yellow";
+  }
+  else if (number > 0.3 && number < 0.4) {
+    color = "magenta";
   }
   $("html").css("backgroundColor", color);
 }
