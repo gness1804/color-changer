@@ -20,17 +20,6 @@
   width: 80px;
 }
 
-@media screen and (max-width: 500px) {
-  #container {
-    border: 1px dotted red;
-    display: block;
-  }
-  #random-button, #reset-button {
-    display: block;
-  }
-
-}
-
 #random-button:hover, #reset-button:hover {
   background-color: #B2479A;
   border-bottom-color: #CC7Fb5;
@@ -45,4 +34,25 @@
 
 #reset-button {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  #container {
+    border: 1px dotted red;
+    flex-direction: column;
+  }
+
+  #random-button, #reset-button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #random-button {
+    margin-bottom: 10px;
+  }
+
+  #reset-button {
+    margin-top: 10px;
+  }
+
 }
