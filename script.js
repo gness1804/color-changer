@@ -29,5 +29,5 @@ function newBackground (newColor) {
 }
 
 function reset () {
-  $("html").css("backgroundColor", "white");
+  $("html").css("backgroundColor", "rgb(255, 255, 255)");
 }
