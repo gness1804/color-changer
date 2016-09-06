@@ -13,8 +13,8 @@ function assignColor() {
   var a = randomRGBVal();
   var b = randomRGBVal();
   var c = randomRGBVal();
-  var d = "rgb" + "(" + ")";
-  console.log(d);
+  var randomColor = "rgb" + "(" + a + "," + " " + b + "," + " " + c + ")";
+  newBackground(randomColor);
 }
 
 
@@ -24,19 +24,10 @@ function randomRGBVal (min, max) { //returns random number between 0 and 255
   return Math.floor(Math.random() * (max - min) + min);
 }
 
+function newBackground (newColor) {
+  $("html").css("backgroundColor", newColor);
+}
 
-
-// if number is within a certain range, generate a color
-
-// function assignColor (number) {
-//   var color = "rgb(a, b, c)";
-//   var a;
-//   var b;
-//   var c;
-//
-//   $("html").css("backgroundColor", color);
-// }
-//
-// function reset () {
-//   $("html").css("backgroundColor", "white");
-// }
+function reset () {
+  $("html").css("backgroundColor", "white");
+}
