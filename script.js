@@ -13,7 +13,8 @@ function assignColor() {
   var a = randomRGBVal();
   var b = randomRGBVal();
   var c = randomRGBVal();
-  console.log(a, b, c);
+  var d = "rgb" + "(" + ")";
+  console.log(d);
 }
 
 
