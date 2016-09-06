@@ -2,6 +2,9 @@ $(document).ready(function () {
   $("#random-button").click(function () {
     numberGenerate();
   });
+  $("#reset-button").click(function () {
+    reset();
+  });
 
 
 }); // end of jQuery body
@@ -15,12 +18,16 @@ function numberGenerate () {
 // if number is within a certain range, generate a color
 
 function assignColor (number) {
-  if (number < 0.1) {
-    color = red;
+  var color;
+  if (number < 0.5) {
+    color = "red";
   }
   else {
-    color = blue;
+    color = "blue";
   }
+  $("html").css("backgroundColor", color);
 }
 
-numberGenerate();
+function reset () {
+
+}
